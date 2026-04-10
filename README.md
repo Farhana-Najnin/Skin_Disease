@@ -4,7 +4,7 @@
 This project is a skin disease detection system built using a Convolutional Neural Network (CNN). It takes a skin image as input and predicts the most likely disease class along with a confidence score. The system also provides simple guidance such as recommendations, next steps, and basic care tips. The application includes a FastAPI backend for handling predictions and a Streamlit interface for user interaction.
 
 ## Dataset Information
-The dataset used in this project is collected from Kaggle ("Skin diseases image dataset"). :contentReference[oaicite:0]{index=0}  
+The dataset used in this project is collected from Kaggle ("Skin diseases image dataset").
 
 - Total images: ~27,000+  
 - Number of classes: 10 skin disease categories  
@@ -24,6 +24,7 @@ Example classes include:
 The dataset is used to train the CNN model for multi-class classification.
 
 ## Procedure / How the System Works
+
 Step 1: Image Input  
 The user uploads a skin image through the Streamlit interface or API.
 
@@ -40,6 +41,7 @@ Step 5: Result Generation
 The system returns the predicted disease name, confidence score, and basic recommendations (rule-based).
 
 ## API Endpoint
+
 POST `/analyze_skin`
 
 Input:
