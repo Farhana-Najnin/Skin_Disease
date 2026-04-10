@@ -62,27 +62,27 @@ Output:
 ## Streamlit UI
 
 ### Upload Interface  
-![UI 1](skin%20disease/ui1.png)
+![UI 1](images/ui1.png)
 
 ### Image Upload Example  
-![UI 2](skin%20disease/ui2.png)
+![UI 2](images/ui2.png)
 
 ### Prediction Result  
-![UI 3](skin%20disease/ui3.png)
+![UI 3](images/ui3.png)
 
 ### Recommendations Output  
-![UI 4](skin%20disease/ui4.png)
+![UI 4](images.png)
 
 ### Another Example  
-![UI 5](skin%20disease/ui5.png)
+![UI 5](images/ui5.png)
 
 ## API Documentation
-![API Docs](skin%20disease/api_docs.png)
+![API Docs](images/api_docs.png)
 
 ## Model Evaluation
 
 ### Confusion Matrix  
-![Confusion Matrix](skin%20disease/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 Evaluation includes Confusion Matrix and Classification Report.
 
