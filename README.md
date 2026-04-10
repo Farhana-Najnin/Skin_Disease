@@ -3,6 +3,26 @@
 ## Overview
 This project is a skin disease detection system built using a Convolutional Neural Network (CNN). It takes a skin image as input and predicts the most likely disease class along with a confidence score. The system also provides simple guidance such as recommendations, next steps, and basic care tips. The application includes a FastAPI backend for handling predictions and a Streamlit interface for user interaction.
 
+## Dataset Information
+The dataset used in this project is collected from Kaggle ("Skin diseases image dataset"). :contentReference[oaicite:0]{index=0}  
+
+- Total images: ~27,000+  
+- Number of classes: 10 skin disease categories  
+- Data is organized into separate folders for each disease class  
+
+Example classes include:
+- Eczema  
+- Melanoma  
+- Atopic Dermatitis  
+- Basal Cell Carcinoma (BCC)  
+- Melanocytic Nevi  
+- Benign Keratosis  
+- Psoriasis and related diseases  
+- Fungal infections  
+- Viral infections  
+
+The dataset is used to train the CNN model for multi-class classification.
+
 ## Procedure / How the System Works
 Step 1: Image Input  
 The user uploads a skin image through the Streamlit interface or API.
@@ -34,44 +54,3 @@ Output:
   "next_steps": "...",
   "tips": "..."
 }
-Streamlit UI
-
-Upload Interface
-
-
-Image Upload Example
-
-
-Prediction Result
-
-
-Recommendations Output
-
-
-Another Example
-
-
-API Documentation
-
-Model Evaluation
-
-Confusion Matrix
-
-
-Evaluation includes Confusion Matrix and Classification Report.
-
-Project Files
-skindiseaseupdated.py → FastAPI backend
-streamlit_app.py → Streamlit interface
-skinDiseaseUpdated.ipynb → Model training notebook
-requirements.txt → Dependencies
-How to Run
-
-Install dependencies:
-pip install -r requirements.txt
-
-Run FastAPI backend:
-uvicorn skindiseaseupdated:app --reload
-
-Run Streamlit app:
-streamlit run streamlit_app.py
