@@ -56,3 +56,57 @@ Output:
   "next_steps": "...",
   "tips": "..."
 }
+
+## Streamlit UI
+
+### Upload Interface  
+![UI 1](skin%20disease/ui1.png)
+
+### Image Upload Example  
+![UI 2](skin%20disease/ui2.png)
+
+### Prediction Result  
+![UI 3](skin%20disease/ui3.png)
+
+### Recommendations Output  
+![UI 4](skin%20disease/ui4.png)
+
+### Another Example  
+![UI 5](skin%20disease/ui5.png)
+
+## API Documentation
+![API Docs](skin%20disease/api_docs.png)
+
+## Model Evaluation
+
+### Confusion Matrix  
+![Confusion Matrix](skin%20disease/confusion_matrix.png)
+
+Evaluation includes Confusion Matrix and Classification Report.
+
+## Project Files
+- skindiseaseupdated.py → FastAPI backend  
+- streamlit_app.py → Streamlit interface  
+- skinDiseaseUpdated.ipynb → Model training notebook  
+- requirements.txt → Dependencies  
+
+## How to Run
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run FastAPI backend:
+uvicorn skindiseaseupdated:app --reload
+
+Run Streamlit app:
+streamlit run streamlit_app.py
+
+## Future Work
+- Improve model accuracy with better architectures (e.g., ResNet, EfficientNet)  
+- Use more balanced and cleaned dataset  
+- Improve recommendation system with more detailed guidance  
+- Add more evaluation metrics  
+- Deploy the system for real-time usage  
+
+## Note
+This project is developed for academic purposes. The predictions and suggestions are not a substitute for professional medical advice.
