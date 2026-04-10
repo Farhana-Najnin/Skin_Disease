@@ -56,7 +56,9 @@ Output:
   "next_steps": "...",
   "tips": "..."
 }
+```
 
+---
 ## Streamlit UI
 
 ### Upload Interface  
