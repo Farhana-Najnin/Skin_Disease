@@ -71,7 +71,7 @@ Output:
 ![UI 3](images/ui3.png)
 
 ### Recommendations Output  
-![UI 4](images.png)
+![UI 4](images/ui4.png)
 
 ### Another Example  
 ![UI 5](images/ui5.png)
